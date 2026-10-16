@@ -1,0 +1,195 @@
+/* General classes */
+*{
+    box-sizing: border-box;
+}
+.color-black{
+  color:black ;
+}
+.color-white{
+     color: white;
+}
+.color-dark-blue{
+    color: rgb(33, 101,173,1);
+}
+span{
+    color: rgb(51,126,186,1);;
+}
+.clear-fix{
+    clear: both;
+}
+
+/* All project Background */
+div.project{
+    background-color:rgba(244, 247, 251, 1) ;
+}
+
+/* Introduce myself section */
+div.my-name{
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+    border: 1px solid lightsteelblue;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: rgb(24,72 , 123);
+}
+div.my-name p{
+    color: rgb(185 ,219,254 ,1);
+}
+div.my-name div.my-buttons button{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid lightblue;
+     background-color: rgba(48, 91, 136, 1);
+     color: white;
+     margin: 5px;
+}
+
+/* Section 1: About Me */
+div.about{
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+div.about h2{
+   border-bottom: 1px solid lightblue;
+    padding-bottom: 20px;
+     color: rgb(11, 61,115,1);
+}
+div.about div.container{
+    width: 90%;
+    margin: auto;
+}
+.my-photo img{
+ width: 150px;
+ float: left;
+ border-radius: 50%;
+ border: 2px solid rgb(232, 244,255 ,1);
+  margin-right: 20px;
+}
+.information-about-me{
+    text-align: left;
+    padding: 10px;
+    margin: 0 20px;
+}
+.button button{
+    padding:15px 15px;
+    border-radius: 10px;
+    color: white;
+    border: 0;
+    background-color: rgb(11, 101, 173, 1);
+}
+
+
+/* Sectoin 2: My Skills */
+div.skills{
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+div.skills h2{
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightblue;
+    color: rgb(11, 61,115,1);
+}
+div.skills div.container{
+     width: 90%;
+     margin: auto;
+}
+div.skills div.container div.skill{
+    float: left;
+    width: 25%;
+    padding:10px 10px;
+    color: black;
+   
+}
+div.skills div.container div.skill div.inner{
+     border-radius: 15px;
+     border: 1px solid lightsteelblue;
+     padding: 20px 20px;
+     background-color: rgb(250, 252,255,1);
+}
+
+div.skills div.container div.skill div.inner h3{
+     color: rgb(33,101,173,1);
+}
+
+/* Section 3: My Experince */
+div.experinces{
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+div.experinces h2{
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightblue;
+    color: rgb(11,61, 115, 1);
+}
+.experince-photo{
+    width: 80px;
+    height: 80px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px;
+    padding: 5px;
+}
+.experince-photo img{
+ width: 70px;
+ border-radius: 50%;
+ border: 2px solid lightsteelblue;
+ margin-right: 20px;
+}
+div.experinces div.container{
+     width: 90%;
+    margin: auto;
+}
+div.experinces div.container  div.experince{
+    border-top: 1px solid lightgray;
+    border-bottom:1px solid lightgray ;
+    border-right: 1px solid lightgray;
+    border-left: 5px solid rgb(11 ,101, 173,1);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: rgba(248, 250, 252, 1);
+    
+}
+div.experinces div.container  div.experince div.content h3{
+   margin-top: 0;
+}          
+
+/* Section 4: Contact Me */
+div.contact-me{
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+    border: 1px solid lightsteelblue;
+    margin-bottom: 20px;
+    background-color: rgb(24,72 , 123);
+    color: white;
+}
+div.contact-me h2{
+ padding-bottom: 20px;
+ border-bottom: 1px solid lightblue;
+}
+div.contact-me div.contact-me-buttons button{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: rgba(48, 91, 136, 1);
+    color: white;
+    margin: 5px;
+}
